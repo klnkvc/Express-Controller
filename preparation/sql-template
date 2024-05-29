@@ -1,0 +1,6 @@
+CREATE database test99;
+use test99;
+CREATE TABLE `siswa` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nama` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
